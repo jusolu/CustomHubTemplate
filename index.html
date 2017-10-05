@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Qlik Hub</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <!-- Bootstrap 3.3.6 -->
+        <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="resources/css/AdminLTE.min.css">
+        <link rel="stylesheet" href="resources/css/skins/_all-skins.min.css">
+    </head>
+
+    <body class="hold-transition skin-black sidebar-mini">
+        <div class="wrapper">
+            <!-- Main Header -->
+            <header class="main-header">
+
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels -->
+                    <span class="logo-mini"><b>Qlik</b></span>
+                    <!-- logo for regular state and mobile devices -->
+                    <span class="logo-lg"><b>Qlik</b>Hub</span>
+                </a>
+
+                <!-- Header Navbar -->
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <!-- Sidebar toggle button-->
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+
+                    <section class="content-header" style="position:static; padding:15px 15px 0 15px;">
+                        <h1 id='pageHeader'>Page Header<small>Optional description</small></h1>
+                        <ol class="breadcrumb" id='pageBreadcrumbs'>
+                            <li>Summary</li>
+                        </ol>
+                    </section>
+                </nav>
+            </header>
+
+
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar">
+
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+
+                    <!-- Sidebar Menu -->
+                    <ul id="sidebar_menu" class="sidebar-menu">
+
+                    </ul>
+                    <!-- /.sidebar-menu -->
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+
+
+            <!-- Content Wrapper. Contains page content -->
+            <div  id="content_wrapper" class="content-wrapper">
+                <!-- Main content -->
+                <section class="content">
+                    <!-- Your Page Content Here -->
+                    <iframe 
+                            id="iframe" 
+                            src='' 
+                            style="overflow: hidden; display: block; height: 950px; width: 100%; border: medium none;" 
+                            width="100%"
+                            >
+                    </iframe>
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+        </div>
+        <!-- ./wrapper -->
+
+        
+        <script type="text/javascript" src="input.js"></script>
+        <script type="text/javascript" src="setNewFrame.js"></script>
+        <script> setNewFrame('Microsite','Financial Services Resources',['finservmicrosite/index.html'],'Home,FinServ Microsite'); </script>
+        <script type="text/javascript" src="createSidebar.js"></script>
+        
+        
+        <!-- REQUIRED JS SCRIPTS -->
+        <!-- jQuery 2.2.3 -->
+        <script src="resources/jQuery/jquery-2.2.3.min.js"></script>
+        <!-- Bootstrap 3.3.6 -->
+        <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+        <!-- AdminLTE App -->
+        <script src="resources/js/app.min.js"></script>
+
+        <!-- Optionally, you can add Slimscroll and FastClick plugins.
+Both of these plugins are recommended to enhance the
+user experience. Slimscroll is required when using the
+fixed layout. -->
+    </body>
+</html>
