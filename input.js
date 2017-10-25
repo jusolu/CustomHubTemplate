@@ -51,7 +51,7 @@ var heirarchy = [
             {
                 "type": "child",
                 "title": "Drag & Drop",
-                "urls":[qlikdemosURL + "sense/app/b5f879c3-58aa-4e04-a479-3cc422bf3fe0/sheet/ChEKGhw/state/analysis"],
+                "urls":["http://qlikdemos.qlikpoc.com/sense/app/b5f879c3-58aa-4e04-a479-3cc422bf3fe0/sheet/ChEKGhw/state/analysis"],
                 "breadcrumbs":"PLATFORM,Customization,Drag & Drop"
             },
             {
@@ -69,31 +69,43 @@ var heirarchy = [
         "links":[
             {
                 "type": "child",
-                "title": "On the Fly Charts (coming soon)",
-                "urls":["https://sensedemo7/extensions/dpi-ad-hoc-mashup/dpi-ad-hoc-mashup.html"],
+                "title": "On the Fly Charts",
+                "urls":["https://usnyc-pcl.qliktech.com/resources/chartgen/chartgen.html#"],
                 "breadcrumbs":"PLATFORM,Customization,On the Fly Charts"
             },
             {
                 "type": "child",
-                "title": "iPortal (coming soon)",
-                "urls":[qlikdemosURL + "sense/app/0ff49a9c-8a03-4816-8c2d-721c16178c2e/sheet/ChEKGhw/state/analysis"],
+                "title": "iPortal",
+                "urls":["https://qlikdemos.qlikpoc.com/iportal"],
                 "breadcrumbs":"PLATFORM,Customization,Drag & Drop"
             },
             {
                 "type": "child",
-                "title": "Colorstyler (coming soon)",
-                "urls":[qlikdemosURL + "sense/app/0ff49a9c-8a03-4816-8c2d-721c16178c2e/sheet/ChEKGhw/state/analysis"],
+                "title": "Colorstyler",
+                "urls":["http://localhost:4848/extensions/colorstyler/colorstyler.html"],
                 "breadcrumbs":"PLATFORM,Customization,Drag & Drop"
             }
         ]
     },
+  
     {
-        "type": "link",
-        "title": "Big Data",
-        "description": "Cloudera Sense Server",
+        "type": "parent",
+        "title": "BIG DATA",
         "icon": "sort-amount-asc",
-        "urls": ["http://cloudera.qlik.com/"],
-        "breadcrumbs": "PLATFORM,Big Data"
+        "links":[
+            {
+                "type": "child",
+                "title": "Cloudera Sense Server",
+                "urls":["http://cloudera.qlik.com/"],
+                "breadcrumbs":"PLATFORM,Big Data, Cloudera Integration"
+            },
+            {
+                "type": "child",
+                "title": "Solr On demand ",
+                "urls":["http://cloudera.qlik.com:3000/?qlikTicket=MlE_kyfch72T6J1.&user=user_118"],
+                "breadcrumbs":"PLATFORM,Big Data, Solr On demand"
+            }
+        ]
     },
     {
         "type": "parent",
@@ -274,7 +286,7 @@ var heirarchy = [
     },
     {
         "type": "section",
-        "title": "LINKS"
+        "title": "RESOURCES"
     },
     {
         "type": "link",
